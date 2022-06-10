@@ -1,28 +1,27 @@
-.container{
-    height: 55px;
-    width: 167px;
-}
-
-#firstName {
-
-
-
-}
-
 legend{
     border-style: solid;
     border-width: thin;
 }
 
-#lastName {
-
+.container{
+    height: 55px;
+    width: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 220px;
 }
 
-.head-page {
-    display: flex;
-    position: relative;
-    width: 100px;
-    height: 500px;
-    justify-content: space-between;
-    flex-wrap: wrap;
+form{
+   width: 620px;
+   height: 550px;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 100px;
+   margin-top: 100px;
+}
+
+.head-page{
+    position: static;
 }
