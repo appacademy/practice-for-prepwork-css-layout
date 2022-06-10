@@ -3,6 +3,19 @@ legend{
     border-width: thin;
 }
 
+p{
+    text-align: center;
+}
+
+form{
+    width: 620px;
+    height: 550px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+ }
+
 .container{
     height: 55px;
     width: 167px;
@@ -13,15 +26,25 @@ legend{
     margin-right: 220px;
 }
 
-form{
-   width: 620px;
-   height: 550px;
-   margin-left: 200px;
-   margin-right: 200px;
-   margin-bottom: 100px;
-   margin-top: 100px;
-}
-
 .head-page{
     position: static;
+}
+
+
+
+.container-two{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-three{
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
