@@ -1,0 +1,28 @@
+.container{
+    height: 55px;
+    width: 167px;
+}
+
+#firstName {
+
+
+
+}
+
+legend{
+    border-style: solid;
+    border-width: thin;
+}
+
+#lastName {
+
+}
+
+.head-page {
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

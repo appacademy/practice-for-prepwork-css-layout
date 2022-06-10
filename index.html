@@ -5,25 +5,25 @@
     </head>
     <body>
         <form action="/form-handling-url" method="post">
-            <fieldset>
+            <fieldset class="head-page">
             <legend>Add user</legend>
-        
-            <div>
+
+            <div class="container">
                 <label for="firstName">First name</label>
                 <input type="text" id="firstName" name="first_name">
             </div>
-        
-            <div>
+
+            <div class="container">
                 <label for="lastName">Last name</label>
                 <input type="text" id="lastName" name="last_name">
             </div>
-        
-            <div>
+
+            <div class="container">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email_address">
             </div>
-        
-            <div>
+
+            <div class="container">
                 <label for="role">Status</label>
                 <select id="role" name="user_role_name">
                 <option value="student">Student</option>
@@ -31,8 +31,8 @@
                 <option value="guest">Guest</option>
                 </select>
             </div>
-            
-            <div>
+
+            <div class="container">
                 <p>Choose your favorite Web language:</p>
                 <input type="radio" id="html" name="fav_language" value="HTML">
                 <label for="html">HTML</label><br>
@@ -42,7 +42,7 @@
                 <label for="javascript">JavaScript</label>
             </div>
 
-            <div>
+            <div class="container">
                 <label for="comments">Comments</label>
                 <textarea id="comments" name="comments"></textarea>
             </div>
@@ -58,11 +58,11 @@
                 <input type="checkbox" id="terms" name="terms" value="Terms">
                 <label for="terms"> Agree to terms and conditions</label>
             </div>
-        
+
             <div>
                 <button type="submit">Submit</button>
             </div>
-        
+
             </fieldset>
         </form>
     </body>
