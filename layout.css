@@ -55,3 +55,23 @@ form{
     flex-direction: column;
     align-items: center;
 }
+
+
+.check-boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+#signup{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#terms{
+
+}
