@@ -5,64 +5,70 @@
     </head>
     <body>
         <form action="/form-handling-url" method="post">
-            <fieldset>
-            <legend>Add user</legend>
-        
-            <div>
-                <label for="firstName">First name</label>
+            <fieldset class="head-page">
+            <legend>Add User</legend>
+
+            <div class="container">
+                <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="first_name">
             </div>
-        
-            <div>
-                <label for="lastName">Last name</label>
+
+            <div class="container">
+                <label for="lastName">Last Name:</label>
                 <input type="text" id="lastName" name="last_name">
             </div>
-        
-            <div>
-                <label for="email">Email</label>
+
+            <div class="container">
+                <label for="email">Email:</label>
                 <input type="email" id="email" name="email_address">
             </div>
-        
-            <div>
-                <label for="role">Status</label>
-                <select id="role" name="user_role_name">
-                <option value="student">Student</option>
-                <option value="instructor">Instructor</option>
-                <option value="guest">Guest</option>
-                </select>
-            </div>
-            
-            <div>
-                <p>Choose your favorite Web language:</p>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+
+            <div class="container-two">
+                <div class="container-three">
+                    <label for="role">Status:</label>
+                    <select id="role" name="user_role_name">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div class="container-three">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
             </div>
 
             <div>
+                <p>Choose your favorite Web language:</p>
+                <div class="choose-container">
+                    <input type="radio" id="html" name="fav_language" value="HTML" checked>
+                    <label for="html">HTML</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+            </div>
+
+            <div class="comment-section">
                 <label for="comments">Comments</label>
                 <textarea id="comments" name="comments"></textarea>
             </div>
 
-            <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
-            </div>
 
-            <div>
+
+            <div class="check-boxes">
                 <input type="checkbox" id="signup" name="signup" value="Signup">
                 <label for="signup">Sign up for news letter</label><br>
                 <input type="checkbox" id="terms" name="terms" value="Terms">
                 <label for="terms"> Agree to terms and conditions</label>
             </div>
-        
-            <div>
+
+            <div class="submit">
                 <button type="submit">Submit</button>
             </div>
-        
+
             </fieldset>
         </form>
     </body>
